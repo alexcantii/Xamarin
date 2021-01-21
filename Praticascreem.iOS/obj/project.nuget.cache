@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "dgSpecHash": "vCuSgXduAZ9EZj2cYGZV8bBEU5sBJeke7xytMEOU/sRjIILgZb1iRO5v3LclnPuWX13LK1bL5PVC5UtFKV1bqA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Usuario\\source\\repos\\Praticascreem\\Praticascreem.iOS\\Praticascreem.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Usuario\\.nuget\\packages\\commonservicelocator\\2.0.2\\commonservicelocator.2.0.2.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\magicgradients\\1.2.0\\magicgradients.1.2.0.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\mvvmlightlibs\\5.4.1.1\\mvvmlightlibs.5.4.1.1.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\plugin.permissions\\3.0.0.12\\plugin.permissions.3.0.0.12.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\skiasharp\\1.68.1.1\\skiasharp.1.68.1.1.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\skiasharp.views\\1.68.1.1\\skiasharp.views.1.68.1.1.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\skiasharp.views.forms\\1.68.1.1\\skiasharp.views.forms.1.68.1.1.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\sqlite-net\\1.6.292\\sqlite-net.1.6.292.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\sqlite-net-pcl\\1.7.335\\sqlite-net-pcl.1.7.335.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\sqlite.net-pcl\\3.1.1\\sqlite.net-pcl.3.1.1.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\sqlite.net.core-pcl\\3.1.1\\sqlite.net.core-pcl.3.1.1.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.3\\sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\sqlitepclraw.core\\2.0.3\\sqlitepclraw.core.2.0.3.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\sqlitepclraw.provider.dynamic_cdecl\\2.0.3\\sqlitepclraw.provider.dynamic_cdecl.2.0.3.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\xam.plugin.media\\4.0.1.5\\xam.plugin.media.4.0.1.5.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512"
+  ],
+  "logs": []
+}

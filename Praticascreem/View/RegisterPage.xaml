@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Praticascreem"
+             x:Class="Praticascreem.View.RegisterPage">
+    <ContentPage.Content>
+        <ScrollView>
+        <Frame BorderColor="#FDFEFE " CornerRadius="5" Padding="18" Margin="30">
+
+            <StackLayout  BackgroundColor="#ffffff"  HorizontalOptions="CenterAndExpand" Padding="10">
+                
+                
+                <Label Text="Registro Nuevo Usuario" FontSize="Medium" FontAttributes="Bold" HorizontalOptions="Center" TextColor="gray" Margin="30"/>
+
+
+
+                <Label Text="Email"/>
+                <Entry x:Name="EmailEntry" Keyboard="Email" Placeholder="Digite su Email" MaxLength="25"  Text="{Binding Emailtxt,Mode=TwoWay}" IsEnabled="{Binding IsEnabledTxt}" />
+
+
+
+
+                <Label Text="Password"/>
+                <Entry x:Name="ContraseñaEntry" Keyboard="Text" IsPassword="True" Placeholder="**********"  Text="{Binding Passwordtxt,Mode=TwoWay}" IsEnabled="{Binding IsEnabledTxt}"/>
+
+
+
+
+                <Label Text="Nombre"/>
+                <Entry x:Name="NombreEntry" Keyboard="Text" Placeholder="Digite su Nombre" Text="{Binding Nombretxt,Mode=TwoWay}" IsEnabled="{Binding IsEnabledTxt}"/>
+
+
+
+
+                <Label Text="Edad"/>
+                <Entry x:Name="EdadEntry" Keyboard="Numeric" Placeholder="Digite su Edad" Text="{Binding Edadtxt}" IsEnabled="{Binding IsEnabledTxt}"/>
+
+
+
+
+
+
+
+                <ActivityIndicator x:Name="indi" IsRunning="False" IsEnabled="False" IsVisible="False"  Color="#FF5733" BackgroundColor="Transparent"></ActivityIndicator>
+
+
+                <StackLayout Margin="30.0" Orientation="Horizontal" VerticalOptions="CenterAndExpand" Padding="0">
+
+
+
+
+
+                    <Button Text="Gurdar Datos" Background="#17a2b8" TextColor="White"
+                        BorderRadius="20" HorizontalOptions="FillAndExpand" Command="{Binding RegisterCommand}" IsEnabled="{Binding IsEnabledTxt}"/>
+
+                    <Button Text="Actualizar Datos" Background="#007bff" TextColor="White"
+                        BorderRadius="20" HorizontalOptions="FillAndExpand"  IsEnabled="{Binding IsEnabledTxt}" Clicked="LimpiarDatos_Cliked"/>
+                </StackLayout>
+
+
+                    <StackLayout Margin="30.0" Orientation="Horizontal" VerticalOptions="Center" Padding="0">
+
+
+                        <Button Text="Mostrar Datos" Background="Blue" TextColor="White" BorderRadius="20" HorizontalOptions="FillAndExpand" Clicked="MostrarDatos_Cliked"/>
+
+                    </StackLayout>
+
+
+
+
+
+                <ListView x:Name="listaListView"/>
+
+            </StackLayout>
+
+
+
+
+        </Frame>
+
+
+        </ScrollView>
+
+
+    </ContentPage.Content>
+</ContentPage>

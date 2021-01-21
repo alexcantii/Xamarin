@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Praticascreem.View.TodoPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <!--<Grid RowSpacing="{OnPlatform iOS=25,Android=18}">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+
+
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <StackLayout Grid.Row="1" HorizontalOptions="Center" WidthRequest="350">
+                    <Frame Padding="0" HasShadow="{OnPlatform Android=true,iOS=false}" VerticalOptions="Center">
+                        --><!--<ListView ItemsSource="{Binding ListViewSource}"
+                                  HasUnevenRows="True"
+                                  x:Name="ListViewName"
+                                  ItemSelected="ListViewName_ItemSelected"
+                                  IsPullToRefreshEnabled="{Binding IsRefreshingTxt}">--><!--
+
+
+                            <ListView.ItemTemplate>--><!--
+                                <DataTemplate>
+                                    <ViewCell>
+
+                                        <Grid>
+                                            <Grid.RowDefinitions>
+
+                                                <RowDefinition Height="60"/>
+                                            </Grid.RowDefinitions>
+
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="50"/>
+                                                <ColumnDefinition Width="Auto"/>
+                                            </Grid.ColumnDefinitions>
+
+                                            <StackLayout Grid.Column="0" Grid.Row="0" HorizontalOptions="Center">
+
+                                                <CheckBox Color="Blue"/>
+
+
+                                            </StackLayout>
+                                    </Grid>
+                                    </ViewCell>
+                                    
+                                </DataTemplate>
+                                
+                            </ListView.ItemTemplate>
+                        </ListView>
+                        
+                    </Frame>
+                    
+                </StackLayout>
+                
+            </Grid>-->
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

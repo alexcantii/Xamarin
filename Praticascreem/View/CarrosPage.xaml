@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Praticascreem.View.CarrosPage">
+    <ContentPage.Content>
+
+
+        <Frame BorderColor="#FDFEFE " CornerRadius="5" Padding="18" Margin="30">
+
+
+
+            <StackLayout BackgroundColor="#ffffff"  HorizontalOptions="CenterAndExpand" Padding="30">
+                
+                <Label Text="Registro" FontSize="Large" HorizontalOptions="Center" FontAttributes="Bold" TextColor="Gray"/>
+
+
+                <Label Text="Nombre"/>
+                <Entry x:Name="NombreTxt" Keyboard="Text" Placeholder="Digite su Nombre" MaxLength="10"  Text="{Binding NombreTxt,Mode=TwoWay}" />
+
+
+
+                <Label Text="Apellido"/>
+                <Entry x:Name="ApellidoTxt" Keyboard="Text" Placeholder="Digite su Apellido"  Text="{Binding ApellidoTxt,Mode=TwoWay}"/>
+
+
+                <Label Text="Email"/>
+                <Entry x:Name="EmailTxt" Keyboard="Email" Placeholder="Digite su Email" Text="{Binding EmailTxt,Mode=TwoWay}"/>
+
+
+                <Label Text="Edad"/>
+                <Entry x:Name="EdadTxt" Keyboard="Numeric" Placeholder="Digite su Edad" Text="{Binding EdadTxt}"/>
+
+                <Image x:Name="Photo"/>
+                <Button x:Name="btnTomarFoto" Text="Tomar Foto" Clicked="btnTomarFoto_Clicked"/>
+
+                <Image x:Name="photoseleccionar"/>
+                <Button x:Name="btnSeleccionarFoto" Text="Seleccionar Foto" Clicked="btnSeleccionarFoto_Clicked"/>
+
+
+
+
+                <StackLayout Margin="40" Orientation="Horizontal" VerticalOptions="CenterAndExpand">
+                    <Button Text="Registrar" BackgroundColor="#17a2b8" TextColor="White" BorderRadius="23" HorizontalOptions="FillAndExpand" Command="{Binding RegistroCommand}" Clicked="limpiarEntry_Clicked"/>
+                    <Button Text="Limpiar" BackgroundColor="#007bff" TextColor="White" BorderRadius="23" HorizontalOptions="FillAndExpand" Command="{Binding RegistroCommand}" Clicked="limpiarEntry_Clicked" />
+                </StackLayout>
+
+            </StackLayout>
+        </Frame>
+    </ContentPage.Content>
+</ContentPage>
