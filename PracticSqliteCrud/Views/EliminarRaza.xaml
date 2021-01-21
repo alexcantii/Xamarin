@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PracticSqliteCrud.Views.EliminarRaza">
+    <ContentPage.Content>
+        <StackLayout Margin="0,30,0,0">
+            <Label Text="ELIMINAR RAZA DE PERRO"
+                   TextColor="Red"
+                   FontSize="30"
+                   HorizontalOptions="CenterAndExpand" />
+            <Label Text="{Binding Raza.Codigo}" 
+                   HorizontalOptions="FillAndExpand"/>
+
+            <Label Text="{Binding Raza.Nombre}" 
+                   HorizontalOptions="FillAndExpand"/>
+
+            <Label Text="{Binding Raza.Caracteristicas}" 
+                   HorizontalOptions="FillAndExpand"/>
+
+            <Button Text="ELIMINAR" HorizontalOptions="FillAndExpand"
+                    Command="{Binding EliminarRaza}"
+                    TextColor="Red"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
